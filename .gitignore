@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+.env
+rag_gdpr/corpus/raw/*.html
+rag_gdpr/corpus/processed/index.pkl

@@ -1,0 +1,68 @@
+{
+  "note": "Kuratierter Index zentraler EDPB-Leitlinien (und einer von der EDPB uebernommenen Art.-29-Datenschutzgruppe-Stellungnahme). Enthaelt Titel, amtliche Fundstelle und eine kurze, selbst formulierte Einordnung, nicht den Volltext der Leitlinien. Fuer die verbindliche Auslegung ist stets der verlinkte Volltext heranzuziehen; dieses Werkzeug ersetzt dessen Lektuere nicht.",
+  "guidelines": [
+    {
+      "id": "edpb-05-2020-consent",
+      "title": "Guidelines 05/2020 on consent under Regulation 2016/679",
+      "body": "EDPB",
+      "adopted": "4 Mai 2020",
+      "topic": "Einwilligung nach Art. 4 Nr. 11 und Art. 7 DSGVO",
+      "summary": "Praezisiert die Wirksamkeitsvoraussetzungen der Einwilligung, insbesondere Freiwilligkeit bei Kopplung an Vertraege, die Anforderungen an eine eindeutige bestaetigende Handlung, Granularitaet bei mehreren Verarbeitungszwecken und den Umgang mit Cookie-Bannern.",
+      "url": "https://www.edpb.europa.eu/our-work-tools/our-documents/guidelines/guidelines-052020-consent-under-regulation-2016679_en"
+    },
+    {
+      "id": "edpb-07-2020-controller-processor",
+      "title": "Guidelines 07/2020 on the concepts of controller and processor in the GDPR",
+      "body": "EDPB",
+      "adopted": "7 Juli 2021 (Version 2.0)",
+      "topic": "Verantwortlicher, gemeinsam Verantwortliche und Auftragsverarbeiter nach Art. 4 Nr. 7, Nr. 8 und Art. 26 DSGVO",
+      "summary": "Legt Kriterien fest, anhand derer sich bestimmen laesst, wer Zwecke und Mittel der Verarbeitung entscheidet, wann eine gemeinsame Verantwortlichkeit vorliegt und welche Mindestinhalte eine Vereinbarung nach Art. 26 DSGVO haben muss.",
+      "url": "https://www.edpb.europa.eu/our-work-tools/our-documents/guidelines/guidelines-072020-concepts-controller-and-processor-gdpr_en"
+    },
+    {
+      "id": "edpb-04-2019-data-protection-by-design",
+      "title": "Guidelines 4/2019 on Article 25 Data Protection by Design and by Default",
+      "body": "EDPB",
+      "adopted": "20 Oktober 2020 (Version 2.0)",
+      "topic": "Datenschutz durch Technikgestaltung und durch datenschutzfreundliche Voreinstellungen, Art. 25 DSGVO",
+      "summary": "Erlaeutert, wie die Grundsaetze aus Art. 5 DSGVO bereits bei der Auswahl von Mitteln und Voreinstellungen einer Verarbeitung umzusetzen sind, mit Beispielen zu Datenminimierung, Speicherbegrenzung und Voreinstellungen bei Standardsoftware.",
+      "url": "https://www.edpb.europa.eu/our-work-tools/our-documents/guidelines/guidelines-42019-article-25-data-protection-design-and_en"
+    },
+    {
+      "id": "edpb-03-2019-video-devices",
+      "title": "Guidelines 3/2019 on processing of personal data through video devices",
+      "body": "EDPB",
+      "adopted": "29 Januar 2020 (Version 2.0)",
+      "topic": "Videoüberwachung, Art. 6 DSGVO und § 4 BDSG",
+      "summary": "Behandelt Rechtsgrundlagen, Informationspflichten, Speicherfristen und den Einsatz intelligenter Videoueberwachung, einschliesslich Gesichtserkennung, und ist die fachliche Grundlage fuer die Auslegung von § 4 BDSG.",
+      "url": "https://www.edpb.europa.eu/our-work-tools/our-documents/guidelines/guidelines-32019-processing-personal-data-through-video_en"
+    },
+    {
+      "id": "edpb-01-2021-breach-examples",
+      "title": "Guidelines 01/2021 on Examples regarding Data Breach Notification",
+      "body": "EDPB",
+      "adopted": "14 Dezember 2021 (Version 2.0)",
+      "topic": "Meldepflicht bei Verletzungen des Schutzes personenbezogener Daten, Art. 33 und 34 DSGVO",
+      "summary": "Ordnet anhand von Fallbeispielen (Ransomware, Datenverlust, Fehlversand, Diebstahl von Geraeten) ein, wann eine Meldung an die Aufsichtsbehoerde und wann zusaetzlich eine Benachrichtigung der betroffenen Personen erforderlich ist.",
+      "url": "https://www.edpb.europa.eu/our-work-tools/our-documents/guidelines/guidelines-012021-examples-regarding-data-breach_en"
+    },
+    {
+      "id": "edpb-01-2022-right-of-access",
+      "title": "Guidelines 01/2022 on data subject rights - Right of Access",
+      "body": "EDPB",
+      "adopted": "28 Maerz 2023 (Version 2.0)",
+      "topic": "Auskunftsrecht, Art. 15 DSGVO",
+      "summary": "Konkretisiert Umfang und Grenzen des Auskunftsrechts, den Umgang mit offensichtlich unbegruendeten oder exzessiven Antraegen nach Art. 12 Abs. 5 DSGVO, die Form der Auskunftserteilung und das Verhaeltnis zu Rechten Dritter.",
+      "url": "https://www.edpb.europa.eu/our-work-tools/our-documents/guidelines/guidelines-012022-data-subject-rights-right-access_en"
+    },
+    {
+      "id": "wp243-dpo-guidelines",
+      "title": "Leitlinien zu Datenschutzbeauftragten (WP 243 rev.01)",
+      "body": "Art.-29-Datenschutzgruppe, am 25. Mai 2018 von der EDPB gebilligt",
+      "adopted": "5 April 2017 (rev.01), gebilligt durch die EDPB",
+      "topic": "Benennung, Stellung und Aufgaben der oder des Datenschutzbeauftragten, Art. 37 bis 39 DSGVO",
+      "summary": "Konkretisiert die Kriterien fuer eine verpflichtende Benennung, die erforderliche fachliche Qualifikation, den Schutz vor Interessenkonflikten und die Mindestausstattung, die eine Datenschutzbeauftragte oder ein Datenschutzbeauftragter benoetigt, um die Aufgaben nach Art. 39 DSGVO wahrzunehmen.",
+      "url": "https://ec.europa.eu/newsroom/article29/items/612048"
+    }
+  ]
+}

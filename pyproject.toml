@@ -1,0 +1,9 @@
+[project]
+name = "rag-gdpr"
+version = "1.0.0"
+description = "Retrieval mit Quellenangabe ueber DSGVO, eine kuratierte BDSG-Auswahl und einen EDPB-Leitlinienindex"
+requires-python = ">=3.10"
+dependencies = ["Flask>=3.0,<4.0", "beautifulsoup4>=4.12", "lxml>=5.0", "scikit-learn>=1.4", "nltk>=3.8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

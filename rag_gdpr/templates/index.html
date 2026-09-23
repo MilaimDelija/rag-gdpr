@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>DSGVO-Fundstellensuche</title>
+<style>
+  body { font-family: Georgia, "Times New Roman", serif; max-width: 880px; margin: 2rem auto; padding: 0 1rem; color: #1a1a1a; background: #fdfdfb; }
+  h1 { font-family: Arial, Helvetica, sans-serif; font-size: 1.4rem; border-bottom: 2px solid #333; padding-bottom: 0.4rem; }
+  p.meta { font-family: Arial, sans-serif; font-size: 0.85rem; color: #555; }
+  form { margin-top: 1.2rem; }
+  textarea { width: 100%; padding: 0.6rem; font-family: inherit; font-size: 1rem; box-sizing: border-box; }
+  .row { display: flex; gap: 1rem; align-items: center; margin-top: 0.6rem; font-family: Arial, sans-serif; font-size: 0.88rem; }
+  button { margin-top: 0.8rem; padding: 0.5rem 1.1rem; font-family: Arial, sans-serif; background: #234; color: #fff; border: none; cursor: pointer; }
+  button:hover { background: #123; }
+  .result { margin-top: 2rem; white-space: pre-wrap; background: #f7f7f2; border: 1px solid #ccc; padding: 1.2rem; font-size: 0.95rem; line-height: 1.5; }
+  .mode { font-family: Arial, sans-serif; font-size: 0.78rem; color: #666; margin-top: 0.4rem; }
+  footer { margin-top: 3rem; font-family: Arial, sans-serif; font-size: 0.78rem; color: #777; border-top: 1px solid #ddd; padding-top: 0.6rem; }
+</style>
+</head>
+<body>
+<h1>Fundstellensuche: DSGVO, BDSG, EDPB-Leitlinien</h1>
+<p class="meta">Beantwortet Fragen ausschliesslich aus dem hinterlegten Korpus und zeigt die genaue Fundstelle. Kein Ersatz fuer Rechtsberatung im Einzelfall.</p>
+
+<form method="post">
+  <textarea name="query" rows="3" placeholder="z. B. Innerhalb welcher Frist muss ein Auskunftsersuchen beantwortet werden?">{{ query }}</textarea>
+  <div class="row">
+    <label>Quelle:
+      <select name="source">
+        <option value="" {{ "selected" if not source_filter else "" }}>alle</option>
+        <option value="dsgvo" {{ "selected" if source_filter == "dsgvo" else "" }}>DSGVO</option>
+        <option value="bdsg" {{ "selected" if source_filter == "bdsg" else "" }}>BDSG</option>
+        <option value="edpb" {{ "selected" if source_filter == "edpb" else "" }}>EDPB</option>
+      </select>
+    </label>
+  </div>
+  <button type="submit">Suchen</button>
+</form>
+
+{% if result %}
+<div class="result">{{ result.text }}</div>
+{% if result.sources %}<p class="mode">{{ result.sources | length }} Fundstelle(n)</p>{% endif %}
+{% endif %}
+
+<footer>Kuratierter Korpus: DSGVO vollstaendig (EUR-Lex), eine kuratierte Auswahl von BDSG-Vorschriften, ein Index zentraler EDPB-Leitlinien. Kein vollstaendiges BDSG und keine Volltexte der Leitlinien.</footer>
+</body>
+</html>
